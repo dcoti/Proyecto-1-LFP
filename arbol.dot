@@ -1,0 +1,44 @@
+digraph G {
+restaurante[label="TACO BELL A DOMICILIO - Live Mas"]comida1[label="PROMOCIONES"]restaurante->comida1
+family6[label="FAMILY BOX SUPREME (PARA 6), Q.145.00, 3 Burritos 5 capas, 3 Crunchywrap supreme, 2 Quesadillas de Pollo, 1 Nachos Supreme, 2 Cinnamon Twists."]
+comida1->family6
+family4[label="FAMILY BOX GRANDE (PARA 4), Q.49.00, 2 Chalupas Supreme de Pollo Frito, 2 Burritos 5 capas, 4 Tacos Suaves, 1 Nachos Supreme y 2 Cinnamon Twists."]
+comida1->family4
+family2[label="FAMILY BOX MEDIANO (PARA 2), Q.99.00, 2 Crunchywrap Supreme, 2 Tacos Suaves de Carne + 1 Nacho Supreme."]
+comida1->family2
+comida2[label="Combos"]restaurante->comida2
+combo2[label="COMBO #2 - BURRITO 1/2LB CRUNCHY, Q.32.00, Burrito 1/2Lb Crunchy, Complemento a elegir y bebida lata."]
+comida2->combo2
+combo3[label="COMBO #3 - BURRITO 5 CAPAS, Q.32.00, Burrito 5 Capas, Complemento a elegir y bebida lata."]
+comida2->combo3
+combo1[label="COMBO #1 - CHALUPA BAJA, Q.32.00, Chalupa Baja, Complemento a elegir y bebida lata."]
+comida2->combo1
+comida3[label="Individuales"]restaurante->comida3
+crunchy[label="NACHO CRUNCHY BURRITO, Q.17.00, Carne sazonada, salsa queso, tiras rojas, crema agria, tomate envuelto en una tortilla de harina."]
+comida3->crunchy
+stacker[label="STACKER DE CARNE, Q.14.0, Carne sazonada, salsa queso, mezcla de 3 quesos derretidos a la perfección dentro una tortilla de harina a la plancha en forma de triángulo."]
+comida3->stacker
+gordita[label="GORDITA CRUNCH, Q.18.00, Flatbread a la plancha con abundante queso derretido, salsa spicy ranch, envuelto en un Taco original."]
+comida3->gordita
+b5capas[label="BURRITO 5 CAPAS, Q.16.00, Deliciosa carne sazonada, frijoles, salsa queso, crema agria, auténtico queso cheddar envuelto en una tortilla de harina."]
+comida3->b5capas
+comida4[label="Complementos"]restaurante->comida4
+p_supreme[label="PAPAS SUPREME, Q.19.00, Deliciosas Papas Fritas con carne sazonada, salsa queso, crema agria, tomate y cebollín."]
+comida4->p_supreme
+n_supreme[label="NACHOS SUPREME, Q.18.00, Deliciosos Nacho chips servidos con frijoles, carne sazonada, salsa queso, crema agria, tomate fresco y cebollín."]
+comida4->n_supreme
+comida5[label="Postres"]restaurante->comida5
+cinnamon[label="CINNAMON TWISTS, Q.11.00, "]
+comida5->cinnamon
+flauta[label="FLAUTA DE DULCE DE LECHE, Q.11.00, "]
+comida5->flauta
+comida6[label="Bebidas"]restaurante->comida6
+bb1[label="PEPSI LIGHT, Q.10.00, Lata"]
+comida6->bb1
+bb2[label="AGUA PURA, Q.10.00, AQUA 600ml"]
+comida6->bb2
+bb3[label="PEPSI, Q.10.00, Lata"]
+comida6->bb3
+b[label="BE LIGHT, Q.15.00, Botella 600ml"]
+comida6->b
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+}
+#encabezado{
+    margin: 5%;
+}
+#secundary{
+    position: relative;
+    left: 100px;
+}
+#desc{
+    position: relative;
+    left: 130px;
+}
+.Data{
+    margin: 0%;
+    padding: 0%;
+}
+#Datos{
+    position: relative;
+    left: 10%;
+}
+p{
+    font-size: 18px;
+}
+.Des{
+    position: relative;
+    left: 15%;
+}
+th, td{
+    width:10%;
+}
